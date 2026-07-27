@@ -1,7 +1,7 @@
 {
   "name": "hoxo",
-  "version": "1.4.0",
-  "description": "Your Hoxo BD engine inside Claude \u2014 bundles the Hoxo connector and 8 skills as slash commands.",
+  "version": "1.5.0",
+  "description": "Your Hoxo BD engine inside Claude \u2014 bundles the Hoxo connector and 9 skills as slash commands.",
   "author": {
     "name": "Hoxo"
   }
