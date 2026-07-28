@@ -10,13 +10,24 @@
  *
  * Run before publishing: node scripts/sync-skills.mjs  (from the marketplace repo root)
  */
-import { readdirSync, mkdirSync, rmSync, readFileSync, writeFileSync } from "fs";
+import { readdirSync, mkdirSync, rmSync, readFileSync, writeFileSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const src = join(__dirname, "../../hoxo-boardroom-skill-pack/skills");
+// The pack lives inside the internal-workflows monorepo, checked out as a sibling of
+// this repo. Override with SKILL_PACK=/path/to/hoxo-boardroom-skill-pack to generate
+// from a branch or a different layout.
+const pack =
+  process.env.SKILL_PACK ??
+  join(__dirname, "../../internal-workflows/clients/hoxo/hoxo-boardroom-skill-pack");
+const src = join(pack, "skills");
 const dest = join(__dirname, "../hoxo/skills");
+
+if (!existsSync(src)) {
+  console.error(`Skill pack not found at ${src}\nSet SKILL_PACK to the hoxo-boardroom-skill-pack directory.`);
+  process.exit(1);
+}
 
 rmSync(dest, { recursive: true, force: true });
 mkdirSync(dest, { recursive: true });

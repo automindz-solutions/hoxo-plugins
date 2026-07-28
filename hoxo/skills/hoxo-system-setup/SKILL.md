@@ -1,6 +1,6 @@
 ---
 name: hoxo-system-setup
-description: "Full ClaudeBrain setup — run once. Writes config, creates folders, pulls ICP and Dream 100 from Hoxo, builds your Voice Vault, and collects podcast docs so the other 6 skills have everything they need. Use when the user says /hoxo-system-setup, 'set up my workspace', 'let's get started', or opens ClaudeBrain for the first time."
+description: "Full Hoxo onboarding — run once. Verifies the connector, builds your Voice Vault, and collects podcast docs, all stored in your Hoxo account (no local files) so the other skills have everything they need on any device. Use when the user says /hoxo-system-setup, 'set up my workspace', 'let's get started', or opens Hoxo in Claude for the first time."
 ---
 
 # /hoxo-system-setup

@@ -1,7 +1,7 @@
 # Hoxo plugin marketplace
 
 One-install distribution of the Hoxo BD engine for Claude (Cowork / Desktop / Code).
-Bundles the **Hoxo connector** + all **7 skills** as slash commands — no zip uploads,
+Bundles the **Hoxo connector** + all **9 skills** as slash commands — no zip uploads,
 no hidden `.cloud` folder.
 
 ## Install (client)
@@ -9,8 +9,8 @@ no hidden `.cloud` folder.
 1. In Claude → **Customize → Plugins → Add marketplace → Add from a repository**
 2. Paste this repo's GitHub URL
 3. Install the **Hoxo** plugin → approve the Hoxo connector (OAuth) when prompted
-4. Type `/` → `hoxo-system-setup`, `monday-report`, `daily-engagement`, `create-content`,
-   `analyse-content`, `podcast-guest`, `bd-outreach`
+4. Type `/` → `hoxo-system-setup`, `voice-vault`, `monday-report`, `daily-engagement`,
+   `write-comment`, `create-content`, `analyse-content`, `podcast-guest`, `bd-outreach`
 
 ## Layout
 
@@ -19,7 +19,7 @@ no hidden `.cloud` folder.
 hoxo/
 ├── .claude-plugin/plugin.json    # plugin manifest
 ├── .mcp.json                     # Hoxo remote connector (HTTP + OAuth auto-discovered)
-└── skills/<7 skills>/SKILL.md     # synced from hoxo-boardroom-skill-pack
+└── skills/<9 skills>/SKILL.md     # synced from hoxo-boardroom-skill-pack
 ```
 
 ## Maintaining
@@ -33,7 +33,12 @@ MCP serves them from `hoxo-boardroom-skill-pack`, the canonical source). So:
 - **Adding/removing a skill, or changing its name/description** → re-stub and republish:
   ```
   node scripts/sync-skills.mjs            # regenerate stubs from the skill-pack
+  #   (reads ../internal-workflows/clients/hoxo/hoxo-boardroom-skill-pack;
+  #    override with SKILL_PACK=/path/to/hoxo-boardroom-skill-pack)
   # bump hoxo/.claude-plugin/plugin.json "version", then push
+
+  Deploy the MCP server FIRST when adding a skill — the stub is useless until
+  `get_skill_instructions` knows the new name.
   ```
 
 The connector URL lives in `hoxo/.mcp.json` (prod, multi-tenant — OAuth identifies the
