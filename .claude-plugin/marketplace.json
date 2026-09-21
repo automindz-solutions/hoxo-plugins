@@ -8,7 +8,7 @@
       "name": "hoxo",
       "displayName": "Hoxo",
       "source": "./hoxo",
-      "description": "Your Hoxo BD engine inside Claude — connects the Hoxo data connector and installs all 9 skills (system setup, voice vault, Monday report, daily engagement, comment drafting, content, analysis, podcast guests, BD outreach) as slash commands. One install, no zip uploads."
+      "description": "Your Hoxo BD engine inside Claude — connects the Hoxo data connector and installs all 10 skills (system setup, ICP refinement, voice vault, Monday report, daily engagement, comment drafting, content, analysis, podcast guests, BD outreach) as slash commands. One install, no zip uploads."
     }
   ]
 }
