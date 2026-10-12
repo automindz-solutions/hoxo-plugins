@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hoxo": {
+      "type": "http",
+      "url": "https://hoxo-mcp.automindz.app/mcp"
+    }
+  }
+}

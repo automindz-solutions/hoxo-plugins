@@ -8,7 +8,13 @@
       "name": "hoxo",
       "displayName": "Hoxo",
       "source": "./hoxo",
-      "description": "Your Hoxo BD engine inside Claude — connects the Hoxo data connector and installs all 12 skills (system setup, ICP refinement, voice vault, Monday report, daily engagement, comment drafting, content, analysis, podcast guests, BD outreach, LinkedIn post KPI sync, LinkedIn pipeline sync) as slash commands. One install, no zip uploads."
+      "description": "Your Hoxo BD engine inside Claude. Connects the Hoxo data connector and installs all 22 skills as slash commands. For Hoxo Boardroom clients."
+    },
+    {
+      "name": "hoxo-bootcamp",
+      "displayName": "Hoxo Bootcamp",
+      "source": "./hoxo-bootcamp",
+      "description": "Your Hoxo LinkedIn Revenue Bootcamp inside Claude. Connects the Hoxo data connector and installs the 12 Bootcamp skills (onboarding, content engine, ideas bank, profile builder and more) as slash commands. For Bootcamp clients."
     }
   ]
 }
