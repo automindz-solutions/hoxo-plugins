@@ -3,7 +3,7 @@
 One-install distribution of Hoxo for Claude (Cowork / Desktop / Code). Two plugins, one
 connector, no zip uploads, no hidden `.cloud` folder:
 
-- **Hoxo**: the Boardroom plugin, all 22 skills.
+- **Hoxo**: the Boardroom plugin, all 23 skills.
 - **Hoxo Bootcamp**: the LinkedIn Revenue Bootcamp plugin, 12 skills.
 
 ## Install (client)
@@ -16,10 +16,10 @@ connector, no zip uploads, no hidden `.cloud` folder:
 4. Approve the Hoxo connector (OAuth) when prompted
 5. Type `/` to see the skills
 
-### Hoxo (Boardroom, 22 skills)
+### Hoxo (Boardroom, 23 skills)
 
 `hoxo-system-setup`, `voice-vault`, `monday-report`, `daily-engagement`, `write-comment`,
-`create-content`, `analyse-content`, `podcast-guest`, `bd-outreach`, `refine-icp`,
+`create-content`, `analyse-content`, `podcast-guest`, `bd-outreach`, `refine-icp`, `buildout-icp-profile`,
 `tbr-sync-kpis`, `tbr-sync-pipeline`, plus the LRB set below and `brand-skill-builder`.
 
 ### Hoxo Bootcamp (12 skills)
@@ -37,7 +37,7 @@ connector, no zip uploads, no hidden `.cloud` folder:
 hoxo/                             # Boardroom
 ├── .claude-plugin/plugin.json    # plugin manifest
 ├── .mcp.json                     # Hoxo remote connector (HTTP + OAuth auto-discovered)
-└── skills/<22 skills>/SKILL.md   # synced from hoxo-boardroom-skill-pack
+└── skills/<23 skills>/SKILL.md   # synced from hoxo-boardroom-skill-pack
 hoxo-bootcamp/                    # Bootcamp
 ├── .claude-plugin/plugin.json
 ├── .mcp.json                     # byte-identical to hoxo/.mcp.json
