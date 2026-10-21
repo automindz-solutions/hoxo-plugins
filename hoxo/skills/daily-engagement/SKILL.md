@@ -1,6 +1,6 @@
 ---
 name: daily-engagement
-description: "Morning engagement digest. Generated every day at 7am by the Hoxo system — this skill retrieves it and shows who engaged with your content yesterday, ranked by ICP match. Use when the user says /daily-engagement, 'daily digest', 'who engaged yesterday', 'morning digest', or 'warm leads'."
+description: "Builds today's engagement report in Claude from live Hoxo data: ICP-matched people who engaged with your posts since your last report, people to review, follow-ups due, new ICP connections and fresh Dream 100 posts to comment on, with replies drafted in your voice. Publishes it as an artifact and saves a copy to the Reports tab in Hoxo. Works at any time of day. Use when the user says /daily-engagement, 'daily digest', 'daily engagement', 'who engaged yesterday', 'morning digest' or 'warm leads', or when a scheduled task runs it."
 ---
 
 # /daily-engagement
