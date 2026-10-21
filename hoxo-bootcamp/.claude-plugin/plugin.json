@@ -1,7 +1,7 @@
 {
   "name": "hoxo-bootcamp",
-  "version": "1.0.0",
-  "description": "Your Hoxo LinkedIn Revenue Bootcamp inside Claude, bundles the Hoxo connector and 12 skills as slash commands.",
+  "version": "1.1.0",
+  "description": "Your Hoxo LinkedIn Revenue Bootcamp inside Claude, bundles the Hoxo connector and 13 skills as slash commands.",
   "author": {
     "name": "Hoxo"
   }
