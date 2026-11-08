@@ -1,6 +1,6 @@
 ---
 name: podcast-guest
-description: "Find podcast guests or prep for a booked guest. Two modes: Find (pulls 10 researched ICP prospects from Dream 100 + network, ranks them, writes personalised invites) or Prep (deep research brief for a booked guest — story, talking points, 5 suggested questions). Reads podcast profile and ICP. Use when the user says /podcast-guest, 'find podcast guests', 'podcast prep', 'guest brief', 'invite guests', or needs to find or prepare for a podcast guest."
+description: "Find podcast guests or prep for a booked guest. Modes: Find guests (10 researched ICP prospects from Dream 100 + network, ranked, each with a personalised invite), Find new guests with Hyreflow (only when the Hyreflow connector is connected: searches outside the network for people who fit the show, researches each on fit, writes a cold invite, and can add the best to the Dream 100 as podcast candidates), or Prep (research brief for a booked guest: story, talking points, 5 suggested questions). Reads podcast profile and ICP. Use when the user says /podcast-guest, 'find podcast guests', 'find new podcast guests', 'podcast prep', 'guest brief', 'invite guests', or needs to find or prepare for a podcast guest."
 ---
 
 # /podcast-guest
