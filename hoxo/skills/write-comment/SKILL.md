@@ -1,6 +1,6 @@
 ---
 name: write-comment
-description: "Draft a LinkedIn comment on someone else's post — in the client's voice, adding a real point of view — so the right prospects see them in the comments. Use when the user says /write-comment, pastes a post to comment on, or says 'comment on this', 'what should I say on this post', 'engage with this post'."
+description: "Draft a LinkedIn comment on someone else's post, in the client's own voice, adding a real point of view so the right prospects see them in the comments. Paste the post and it reads the client's Voice Vault, then produces three options with different angles and hands back the chosen one clean to paste. Use when the user says /write-comment, 'write a comment', 'comment on this', 'comment on this post', 'what should I say on this post', 'engage with this post', or pastes a LinkedIn post and asks to comment on it."
 ---
 
 # /write-comment

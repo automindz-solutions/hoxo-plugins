@@ -1,6 +1,6 @@
 ---
 name: tbr-sync-connections
-description: "Optional. Reads the LinkedIn connections you added recently from your own LinkedIn in your Claude browser and adds them to Hoxo, where they are screened against your ICP, so new ICP connections show up in /daily-engagement and on the Network page without exporting a CSV. Read-only on LinkedIn. Use when the user says /tbr-sync-connections, 'sync my connections', 'add my new connections', 'import my new LinkedIn connections', or when a scheduled task runs it."
+description: "Optional. Reads the LinkedIn connections you added recently from your own LinkedIn in your Claude browser and adds them to Hoxo, where they are screened against your ICP, so new ICP connections show up in /daily-engagement and in People on the dashboard without exporting a CSV. Read-only on LinkedIn. Use when the user says /tbr-sync-connections, 'sync my connections', 'add my new connections', 'import my new LinkedIn connections', or when a scheduled task runs it."
 ---
 
 # /tbr-sync-connections

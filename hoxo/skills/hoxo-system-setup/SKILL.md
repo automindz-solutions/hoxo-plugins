@@ -1,6 +1,6 @@
 ---
 name: hoxo-system-setup
-description: "Full Hoxo onboarding — run once. Verifies the connector, builds your Voice Vault, and collects podcast docs, all stored in your Hoxo account (no local files) so the other skills have everything they need on any device. Use when the user says /hoxo-system-setup, 'set up my workspace', 'let's get started', or opens Hoxo in Claude for the first time."
+description: "Full Hoxo onboarding, run once. Verifies the connector, builds your Voice Vault, has you review your ICP and build your watch list from it (Boardroom), collects podcast docs, and sets up scheduled tasks for the notetaker and CRM you have connected, all stored in your Hoxo account (no local files) so the other skills have everything they need on any device. Use when the user says /hoxo-system-setup, 'set up my workspace', 'let's get started', or opens Hoxo in Claude for the first time."
 ---
 
 # /hoxo-system-setup
