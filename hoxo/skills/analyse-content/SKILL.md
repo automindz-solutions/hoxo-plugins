@@ -1,6 +1,6 @@
 ---
 name: analyse-content
-description: "Content pattern analysis across 3 modes: own posts (what's working, what to lean into), a specific creator (reverse-engineer their formula), or all tracked creators (sector intelligence). Saves reports to your Hoxo account (learning_report docs). Use when the user says /analyse-content, 'analyse my content', 'what's working', 'analyse creator', 'content patterns', 'sector content', or wants to understand performance or creator strategy."
+description: "Content pattern analysis across 3 modes, meant to run weekly: own posts (what's working, what to lean into, and what your edits to Hoxo drafts say about your voice), a specific creator (reverse-engineer their formula), or all tracked creators (sector intelligence). Saves reports to your Hoxo account (learning_report docs). Use when the user says /analyse-content, 'analyse my content', 'what's working', 'analyse creator', 'content patterns', 'sector content', or wants to understand performance or creator strategy."
 ---
 
 # /analyse-content
